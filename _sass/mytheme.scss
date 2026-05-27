@@ -1,0 +1,14 @@
+@import 'colors.scss';
+@import 'fonts.scss';
+@import 'general.scss';
+@import 'optimized.scss';
+@import 'animations/fadeback2top.scss';
+@import 'animations/fadesections.scss';
+@import 'includes/contact.scss';
+@import 'includes/footer.scss';
+@import 'includes/navbar.scss';
+@import 'layouts/post.scss';
+
+.foo { 
+   background-color: hsl(0,100%,50%);
+}

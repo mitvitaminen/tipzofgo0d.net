@@ -1,0 +1,118 @@
+html {
+    display: flex ;
+    justify-content: center;
+    align-items: center;   
+    background-image: url('../img/triangles.png');
+    background-repeat: repeat-y;
+}
+#scroll_top_div {
+     float: right;
+}
+html {
+    height: min-content;
+}
+body {
+    display: grid;
+    grid-template-columns: auto 0px;    
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    font-family: var(--main-font);
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+a {
+    color: var(--poisongreen-color);
+}
+
+a:visited {
+    color: var(--purple-color);
+}
+
+h1,
+h2,
+h3,
+ul {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+details {
+    margin-bottom: 0.55rem;
+}
+
+p {
+    margin-bottom: 1.25rem;
+}
+
+p,
+table {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#back2top {
+    position: absolute;
+
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+.align_items_flex_end {
+    align-items: flex-end;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex_dir_column {
+    flex-direction: column;
+}
+
+.flex_grow_auto {
+    flex-grow: 1;
+}
+
+.float_right {
+    float: right;
+}
+
+.min_height100vh {
+    min-height: 100vh;
+}
+
+.justify_center {
+    justify-content: center;
+}
+
+.margin_bottom_2_25rem {
+    margin-bottom: 2.25rem;
+}
+
+.margin_left_right_auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.max_width_999px {
+    max-width: 999px;
+}
+
+.max_width_max_content {
+    max-width: max-content;
+}
+
+.positiuon_relative {
+    position: relative;
+}

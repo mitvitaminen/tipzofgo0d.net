@@ -1,0 +1,13 @@
+bars:    
+    - 
+        txt: Info
+        anchor: intro
+    - 
+        txt: Details
+        anchor: details
+    - 
+        txt: Projekte
+        anchor: projects
+    -
+        txt: Kontakt
+        anchor: contact

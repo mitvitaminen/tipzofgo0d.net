@@ -1,0 +1,12 @@
+#scroll_top_div {
+  --offset: 100px;
+  --fade: 120px;
+  position: sticky;
+  bottom: 1rem;
+  right: 1rem;      
+  margin-right: 1rem; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset)); 
+  mask: linear-gradient(#000 calc(100vh + var(--offset)), #0000 calc(100vh + var(--offset) + var(--fade)));
+
+}

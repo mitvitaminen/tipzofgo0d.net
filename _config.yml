@@ -1,0 +1,61 @@
+# META
+# baseurl: # only set if page is in /directory 
+description: This is the portfolio of Christian Rocholl.
+domain: croware.net
+email: chris.rocholl@proton.me
+encoding: utf-8
+include: 
+   - _pages
+      
+locale: "de-DE"
+title: Christian Rocholl
+url: "https://www.crowware.net"
+
+collections_dir: mycollections
+   
+
+collections:
+  projects:
+      output: false
+  posts:
+    output: true
+  
+      
+#PLUGINS
+whitelist           : []
+plugins:
+   - jekyll-feed   
+   - jekyll-seo-tag 
+  
+# BUILD
+defaults:
+ - 
+   scope:
+      type: pages
+      path: _pages
+   values:
+      is_post: false      
+ -
+   scope:
+      type: posts
+      path: _posts
+   values:
+      is_post: true
+      layout: post
+      permalink: /blog/:categories/:title/
+
+gems:
+  - font-awesome-sass
+  
+kramdown:
+   input: GFM
+
+markdown:
+   kramdown
+     
+sass:
+  style: compressed
+
+timezone: Europe/Berlin
+
+theme: null   

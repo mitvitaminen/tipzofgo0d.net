@@ -1,0 +1,18 @@
+<footer class="fade margin_left_right_auto max_width_max_content">
+	{% assign footer = site.data.footer %}
+	<span class="headline">{{ footer.title }}</span>
+	<div class="flex align_items_center justify_center">
+		<p>
+			{{ footer.firma }}<br /> {{ footer.name }}<br /> {{ footer.strasse
+			}}<br /> {{ footer.ort }}<br /> {{ footer.email }}
+		</p>
+		<!-- <p>
+			<strong>{{ footer.haftpflicht.title }}</strong><br /> <a
+				href="{{ footer.haftpflicht.url }}">{{ footer.haftpflicht.name
+				}}</a><br /> {{ footer.haftpflicht.strasse }}<br /> {{
+			footer.haftpflicht.ort }}<br /> {{
+			footer.haftpflicht.geltungsbereich }}
+		</p>
+		 -->
+	</div>
+</footer>

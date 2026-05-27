@@ -1,0 +1,11 @@
+.fade {
+    position: relative;
+    transform: translateY(250px);
+    opacity: 0;
+    transition: 1.75s all ease;
+}
+
+.fade.active {
+    opacity: 1;
+    transform: translateY(0px);
+}

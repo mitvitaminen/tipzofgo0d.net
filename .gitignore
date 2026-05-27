@@ -1,0 +1,6 @@
+# BUILD and IDE SPECIFIC
+_site/
+.settings/
+.project
+.jekyll-cache
+Gemfile.lock

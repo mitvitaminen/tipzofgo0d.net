@@ -1,0 +1,7 @@
+<nav>   
+    <ul class="horizontal">
+    {% for bar in site.data.nav.bars %}
+        <li><a href='#{{ bar.anchor }}'>{{ bar.txt }}</a></li>
+    {% endfor %}
+    </ul> 
+</nav>

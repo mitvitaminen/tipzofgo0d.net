@@ -1,0 +1,9 @@
+<section id="projects"
+	class="min_height100vh flex flex_dir_column justify_center align_items_center fade">		
+	{% for project in site.projects reversed %}
+	<details>
+		<summary>{{ project.dauer }} {{ project.title }}</summary>
+		{{ project.description }}
+	</details>
+	{% endfor %}
+</section>

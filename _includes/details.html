@@ -1,0 +1,15 @@
+<section id="details" class="min_height100vh flex flex_dir_column justify_center align_items_center fade">
+{% assign txt = site.data.details %} 
+<p>{{ txt.fuer }}</p>
+        <ul>
+          {% for pro in txt.pros %}
+              <li>{{ pro }}</li>
+          {% endfor %}
+        </ul>
+        <p>{{ txt.angebot }}</p>
+        <ul>
+            {% for skill in txt.skills %}
+                <li>{{ skill }}</li> 
+           {% endfor %}
+        </ul>
+</section>
